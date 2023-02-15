@@ -1,3 +1,6 @@
+import { useTranslation } from 'react-i18next'
+
 export function MainPage() {
-    return <div>Main PAGE</div>
+    const { t } = useTranslation()
+    return <div>{t('Главная')}</div>
 }
